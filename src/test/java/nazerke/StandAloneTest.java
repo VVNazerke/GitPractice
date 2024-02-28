@@ -68,6 +68,9 @@ public class StandAloneTest {
 		
 		driver.quit();
 		
+		System.out.println("Practice git");
+		System.out.println("Practice git");
+		
 
 	}
 
