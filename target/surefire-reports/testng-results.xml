@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-26T17:03:13 ALMT" name="Suite" finished-at="2024-02-26T17:03:46 ALMT" duration-ms="32549">
+    <groups>
+      <group name="ErrorHandling">
+        <method signature="ErrorValidations.loginError()[pri:0, instance:nazerke.ErrorValidations@7a6d7e92]" name="loginError" class="nazerke.ErrorValidations"/>
+      </group> <!-- ErrorHandling -->
+    </groups>
+    <test started-at="2024-02-26T17:03:13 ALMT" name="Error Validations Test" finished-at="2024-02-26T17:03:24 ALMT" duration-ms="10883">
+      <class name="nazerke.ErrorValidations">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:nazerke.ErrorValidations@7a6d7e92]" started-at="2024-02-26T17:03:13 ALMT" name="launchApplication" finished-at="2024-02-26T17:03:23 ALMT" duration-ms="10053" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="loginError()[pri:0, instance:nazerke.ErrorValidations@7a6d7e92]" started-at="2024-02-26T17:03:23 ALMT" name="loginError" finished-at="2024-02-26T17:03:24 ALMT" duration-ms="721" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginError -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:nazerke.ErrorValidations@7a6d7e92]" started-at="2024-02-26T17:03:24 ALMT" name="closeApplication" finished-at="2024-02-26T17:03:24 ALMT" duration-ms="48" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- nazerke.ErrorValidations -->
+    </test> <!-- Error Validations Test -->
+    <test started-at="2024-02-26T17:03:13 ALMT" name="Submit Order Test" finished-at="2024-02-26T17:03:46 ALMT" duration-ms="32549">
+      <class name="nazerke.SubmitOrderTest">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:nazerke.SubmitOrderTest@8462f31]" started-at="2024-02-26T17:03:14 ALMT" name="launchApplication" finished-at="2024-02-26T17:03:23 ALMT" duration-ms="9608" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="submitOrder(java.util.HashMap)[pri:0, instance:nazerke.SubmitOrderTest@8462f31]" started-at="2024-02-26T17:03:23 ALMT" name="submitOrder" data-provider="getData" finished-at="2024-02-26T17:03:40 ALMT" duration-ms="16282" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qwertyasd1!, email=wohec23631@tospage.com, productName=ADIDAS ORIGINAL}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- submitOrder -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:nazerke.SubmitOrderTest@8462f31]" started-at="2024-02-26T17:03:40 ALMT" name="closeApplication" finished-at="2024-02-26T17:03:40 ALMT" duration-ms="60" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:nazerke.SubmitOrderTest@8462f31]" started-at="2024-02-26T17:03:40 ALMT" name="launchApplication" finished-at="2024-02-26T17:03:45 ALMT" duration-ms="5206" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="orderHistoryTest()[pri:0, instance:nazerke.SubmitOrderTest@8462f31]" started-at="2024-02-26T17:03:45 ALMT" name="orderHistoryTest" finished-at="2024-02-26T17:03:46 ALMT" depends-on-methods="nazerke.SubmitOrderTest.submitOrder" duration-ms="1044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- orderHistoryTest -->
+        <test-method is-config="true" signature="closeApplication()[pri:0, instance:nazerke.SubmitOrderTest@8462f31]" started-at="2024-02-26T17:03:46 ALMT" name="closeApplication" finished-at="2024-02-26T17:03:46 ALMT" duration-ms="31" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- nazerke.SubmitOrderTest -->
+    </test> <!-- Submit Order Test -->
+  </suite> <!-- Suite -->
+</testng-results>
